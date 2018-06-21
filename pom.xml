@@ -27,7 +27,7 @@
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-release-plugin</artifactId>
-            <version>2.4.2</version>
+            <version>2.5.3</version>
             <configuration>
               <tagNameFormat>v@{project.version}</tagNameFormat>
               <autoVersionSubmodules>true</autoVersionSubmodules>
@@ -118,9 +118,9 @@
   </build>
 
   <scm>
-    <connection>scm:git:git@github.com:user/project.git</connection>
-    <url>scm:git:git@github.com:user/project.git</url>
-    <developerConnection>scm:git:git@github.com:user/project.git</developerConnection>
+    <connection>scm:git:https://github.com/ravindradeoray/simple-java-maven-app.git</connection>
+    <url>https://github.com/ravindradeoray/simple-java-maven-app</url>
+    <developerConnection>scm:git:https://github.com/ravindradeoray/simple-java-maven-app.git</developerConnection>
     <tag>my-app-1.0</tag>
   </scm>
 
